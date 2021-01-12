@@ -1,0 +1,23 @@
+{
+    "name": "sobre/digital-cep",
+    "description": "Busca CEP on-line",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romulo Sobreira",
+            "email": "romurevoltado@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "sobre\\digitalCep\\":"src/"
+        }
+    }
+}
